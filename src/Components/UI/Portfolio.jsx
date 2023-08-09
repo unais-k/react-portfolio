@@ -73,7 +73,7 @@ function Portfolio() {
                                 <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z=[5] hidden group-hover:block">
                                     <div className="w-full h-full flex items-center justify-center">
                                         <button
-                                            onClick={showModalHandler}
+                                            onClick={() => showModalHandler(item.id)}
                                             className="text-white  bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
                                         >
                                             See Details
@@ -88,14 +88,14 @@ function Portfolio() {
                     {data < next.length && portfolios.length > 6 && (
                         <button
                             onClick={loadMore}
-                            className="text-white  bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
+                            className="text-white  bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
                         >
                             Load More
                         </button>
                     )}
                 </div>
             </div>
-            {showModal && <Modal setShowModal={setActiveId} activeId={activeId} />}
+            {showModal && <Modal setShowModal={setShowModal} activeId={activeId} />}
         </section>
     );
 }

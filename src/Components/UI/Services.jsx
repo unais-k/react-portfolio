@@ -9,7 +9,8 @@ function Services() {
                 <div className="text-center">
                     <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">what do I help</h2>
                     <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-                        Lorem ipsum
+                        MERN Stack Developer: Crafts responsive web apps using MongoDB, Express, React, Node.js. Integrates
+                        database, backend, and frontend seamlessly for optimal user experience.
                     </p>
                 </div>
                 <div className="flex flex-col justify-center sm:py-12">
@@ -56,11 +57,11 @@ function Services() {
                                                 className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                                             >
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                                                    Frontend Development
+                                                    Backend Development
                                                 </h3>
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                                                    Designing user interfaces with HTML, CSS, JavaScript for engaging
-                                                    websites and apps.
+                                                    JavaScript for server logic. Manages data, user authentication, and
+                                                    business tasks, ensuring website/app functionality.
                                                 </p>
                                             </div>
                                         </div>
