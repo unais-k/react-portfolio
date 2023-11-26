@@ -4,6 +4,10 @@ import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
+import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg08 from "../images/portfolio-08.jpg";
+import portfolioImg09 from "../images/portfolio-09.jpg";
+import portfolioImg10 from "../images/portfolio-10.jpg";
 
 const portfolios = [
     {
@@ -71,6 +75,42 @@ const portfolios = [
         description: "This is a Olx clone web application, where i studied react js and tailwind css",
         technologies: ["React", "Tailwind css", "MongoDB"],
         siteUrl: "#",
+    },
+    {
+        id: "07",
+        imgUrl: portfolioImg10, // modern ui
+        category: "Ux",
+        title: "Modern UI",
+        description: "Practicing React js and Tailwind CSS",
+        technologies: ["React", "Tailwind css"],
+        siteUrl: "https://modern-ui.onrender.com/",
+    },
+    {
+        id: "08",
+        imgUrl: portfolioImg08,
+        category: "Ux",
+        title: "Admin Dashboard",
+        description: "This is complete Admin dashboard created from scratch",
+        technologies: ["React", "Tailwind css"],
+        siteUrl: "https://fitpeofl.onrender.com/",
+    },
+    {
+        id: "09",
+        imgUrl: portfolioImg09,
+        category: "Ux",
+        title: "Assessment",
+        description: "Assessment",
+        technologies: ["React", "Tailwind css"],
+        siteUrl: "https://zlabbagnlr.onrender.com/",
+    },
+    {
+        id: "10",
+        imgUrl: portfolioImg07,
+        category: "Web design",
+        title: "Blog App",
+        description: "Assessment",
+        technologies: ["React", "Tailwind css", "Mongo DB", "Express.js"],
+        siteUrl: "https://github.com/unais-k/ebslonDelhi/",
     },
 ];
 
