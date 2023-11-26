@@ -4,10 +4,10 @@ import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
-import portfolioImg08 from "../images/portfolio-08.jpg";
-import portfolioImg09 from "../images/portfolio-09.jpg";
-import portfolioImg10 from "../images/portfolio-10.jpg";
+import portfolioImg07 from "../images/portfolio-07.png";
+import portfolioImg08 from "../images/portfolio-08.png";
+import portfolioImg09 from "../images/portfolio-09.png";
+import portfolioImg10 from "../images/portfolio-10.png";
 
 const portfolios = [
     {
