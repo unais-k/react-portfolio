@@ -17,7 +17,6 @@ function Footer() {
                         </a>
                     </div>
                     <div className="w-full sm:w-1/2">
-                        <p className="text-gray-300 leading-7 mt-4 sm:mt-0">lorem ipsum</p>
                         <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
                             <span className="text-gray-300 font-[600] text-[15px]">Follow me:</span>
                             <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
