@@ -74,11 +74,11 @@ function Hero() {
                     </div>
                     {/* =============== hero left end ============== */}
                     {/* ============= hero img ================= */}
-                    <div className="basis-1/3 mt-10 sm:mt-0">
+                    {/* <div className="basis-1/3 mt-10 sm:mt-0">
                         <figure className="flex items-center justify-center">
-                            <img src={heroImg} alt="" />
+                            <img src="" alt="" />
                         </figure>
-                    </div>
+                    </div> */}
                     {/* ============= hero img end ================= */}
                     {/* ============= hero content right ================= */}
                     <div className="md:basis-1/5 flex justify-center text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
